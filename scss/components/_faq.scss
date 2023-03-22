@@ -1,0 +1,35 @@
+.faq-container1__faq, .faq-container2__faq {
+    @extend %dflex;
+    justify-content: center;
+    gap: 140px;
+    margin: 70px 10px;
+    div {
+        max-width: 500px;
+        border: 1px solid transparent;
+        padding: 10px;
+        &:hover {
+            border: 1px solid #000;
+            padding: 10px;
+            transform: scale(1.5);
+            transition: all 1.5s;
+            cursor: default;
+        }
+    }
+
+}
+
+.otrapregunta-container__faq {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 30px;
+    input {
+        padding: 20px 40px;
+        margin: 10px;
+        &:nth-child(1) {
+            width: 30%;
+            min-width: 300px;
+        }
+    }
+}

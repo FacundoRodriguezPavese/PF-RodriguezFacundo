@@ -1,0 +1,22 @@
+* {
+    font-family:  'Lora', serif;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    overflow-x: hidden;
+    background-image: url(../../views/fondo-del-sitio.png);
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    h1 {
+        padding: 40px;
+        text-decoration: underline;
+    }
+}

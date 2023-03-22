@@ -1,0 +1,28 @@
+.footer-container {
+    @extend %dflex;
+    background-color: #ffcfcf;
+    padding-left: 30px;
+    align-items: center;
+    ul {
+        padding: 0;
+        h6 {
+            font-size: 20px;
+            margin: 20px;
+        }
+        li {
+            padding: 10px;
+            a{
+                font-family: sans-serif;
+            }
+        }
+    }
+    iframe {
+        max-width: 300px;
+        max-height: 200px;
+    }
+    .copyright {
+        span {
+            font-size: 17px;
+        }
+    }
+}

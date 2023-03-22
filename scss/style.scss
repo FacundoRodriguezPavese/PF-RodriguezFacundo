@@ -1,0 +1,16 @@
+// Base
+@import './base/variables';
+@import './base/extend';
+@import './base/mixin';
+@import './base/maps';
+
+// Components;
+@import './components/generals';
+@import './components/navbar';
+@import './components/footer';
+@import './components/index';
+@import './components/nuestra-mision';
+@import './components/adopcion';
+@import './components/peluqueria';
+@import './components/pet-shop';
+@import './components/faq'

@@ -1,0 +1,64 @@
+
+.index-mi_carrusel {
+    @extend %dflex;
+    gap: 10px;
+    h5 {
+        font-size: 25px;
+        line-height: 43px;
+        font-weight: 500;
+    }
+}
+.nuestros-trabajos{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    .cruce-fondo{
+        @include cruce-de-fondos();
+        width:1500px;
+        height: 400px;
+        background-color: #ffcfcf;
+        rotate: 55deg; 
+        top: 770px;
+        @media (max-width: 1901px) {
+            display: none;
+        }
+    }
+    .cruce-fondo2{
+        @include cruce-de-fondos();
+        width:1500px;
+        height: 400px;
+        background-color: #ff9b9b7f;
+        rotate: 55deg;
+        top: 770px;
+        left: 50px;
+        border-radius: 10%;
+        @media (max-width: 1901px) {
+            display: none;
+        }
+    }
+    div {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-template-rows: auto;
+        gap: 60px;
+        margin-bottom: 100px;
+        img {
+            border: 2px solid #fc9a9a;
+        }
+    }
+    h4 {
+        font-size: 25px;
+        line-height: 43px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+.nuestros-trabajos--imgs {
+    width: 245px;
+    height: 305px;
+    cursor: url(../../views/cursor-fotos.png)
+}

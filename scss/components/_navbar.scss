@@ -1,0 +1,25 @@
+nav {
+    background-color: map-get($colores, color-principal);
+    max-height: 82px;
+}
+.btn-inicio {
+    font-size: 30px;
+    padding: 0 50px;
+}
+.estilos-mi_nav {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    ul {
+        gap: 40px;
+        li {
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 20px;
+            &:hover {
+                background-color: map-get($colores, color-hover);
+                transition: .5s;
+            }
+        }
+    }
+}
