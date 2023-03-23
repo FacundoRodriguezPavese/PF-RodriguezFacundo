@@ -110,6 +110,13 @@ nav {
   gap: 60px;
   margin-bottom: 100px;
 }
+@media (max-width: 1400px) {
+  .nuestros-trabajos div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .nuestros-trabajos div img {
   border: 2px solid #fc9a9a;
 }
