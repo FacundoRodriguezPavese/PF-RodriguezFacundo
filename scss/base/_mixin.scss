@@ -1,4 +1,4 @@
-@mixin cruce-de-fondos{
-    position: absolute;
-    z-index: -1;
+@mixin tamaños($margin, $padding) {
+    margin: $margin;
+    padding: $padding;
 }

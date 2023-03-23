@@ -1,6 +1,6 @@
 .footer-container {
     @extend %dflex;
-    background-color: #ffcfcf;
+    background-color: $bg-footer;
     padding-left: 30px;
     align-items: center;
     ul {
