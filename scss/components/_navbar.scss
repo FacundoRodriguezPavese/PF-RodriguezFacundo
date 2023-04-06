@@ -10,6 +10,10 @@ nav {
     @include tamaños(0px, 10px);
     display: flex;
     justify-content: center;
+    z-index: 100;
+    @media (max-width: 991px) {
+        background-color: map-get($colores , color-principal );
+    }
     ul {
         gap: 40px;
         li {
